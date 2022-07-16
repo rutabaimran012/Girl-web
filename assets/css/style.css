@@ -1,0 +1,34 @@
+.nav{
+    justify-content: left;
+}
+.hero{
+    display: flex;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+}
+h4{
+    padding: 10px;
+    font-size: 14px;
+}
+.portfolio{
+    width: 102%;
+    margin-top: 34px;
+}
+.recent{
+    display: flex;
+}
+.b{
+    
+    padding: 12px;
+    margin-top: 68px;
+}
+.a-img{
+    width: 42%;
+    margin-top: 42px;
+    margin-right: 41px;
+}

@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Girl-web</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <div class="container nav">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <img class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"
+                src="data:image/jpeg;base64,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">
+            </a>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Portfolio</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="hero">
+        <div class="col-md-5 p-lg-5 my-5">
+            <h1>About</h1>
+            <h1 class="display-4 fw-normal">Punny headline</h1>
+            <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this
+                example based on Apple’s marketing pages.</p>
+            <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+        </div>
+        <div>
+            <img src="images/Illustration (1).png">
+        </div>
+    </div>
+    <div class="container">
+        <h1>Portfolio</h1>
+        <div class="featured">
+            <h1>Featured</h1>
+            <div class="a">
+                <h4>featured</h4>
+                <h4>user interface</h4>
+                <h4>web design</h4>
+                <h4>branding</h4>
+                <h4>graphic design</h4>
+            </div>
+        </div>
+        <img class="portfolio" src="images/Portfolio Images.png">
+    </div>
+    <div class="container">
+        <div class="recent">
+            <div class="b">
+                <h5>11.1.2019</h5>
+                <h1>Title of a longer featured blog post</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione!</p>
+                <a href="#">read more</a>
+            </div>
+            <img class="a-img" src="images/Thumbnail 2.png">
+        </div>
+        <div class="recent">
+            <img class="a-img" src="images/Thumbnail.png">
+            <div class="b">
+                <h5>11.1.2019</h5>
+                <h1>Title of a longer featured blog post</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi.</p>
+                <a href="#">read more</a>
+            </div>
+        </div>
+        <a class="btn btn-outline-secondary align-items-center" href="#">Coming soon</a>
+    </div>
+    <div class="container">
+        <div class="row g-5">
+
+
+            <form class="card p-2">
+
+            </form>
+        </div>
+        <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3 display-4">wanna talk about your big project?</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required=""
+                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="address" class="form-label">Project Type</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                        Please enter your shipping address.
+                    </div>
+                </div>
+                <hr class="my-4">
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
