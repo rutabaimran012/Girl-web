@@ -1,16 +1,9 @@
-.nav{
-    justify-content: left;
-}
-.hero{
-    display: flex;
-}
+
 .featured{
     display: flex;
     justify-content: space-between;
 }
-.a{
-    display: flex;
-}
+
 h4{
     padding: 10px;
     font-size: 14px;
@@ -27,8 +20,33 @@ h4{
     padding: 12px;
     margin-top: 68px;
 }
-.a-img{
-    width: 42%;
-    margin-top: 42px;
-    margin-right: 41px;
+
+
+
+
+
+
+
+
+.d-logo{
+    margin-left: -117px;
+    width: 100%;
+}
+.girl-img{
+    width: 27rem;
+    margin-left: 3rem;
+}
+.bb{
+    display: flex;
+}
+.orange-dash-line{
+    border-bottom: 3px solid orange;
+    width: 36px;
+    margin-bottom: 13px;
+    margin-left: 18px;
+    border-radius: 1px;
+}
+.hero-sec-but{
+    border-radius: 22px;
+    padding: 12px 23px;
 }
