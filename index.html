@@ -11,42 +11,6 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="col-md-7 col-lg-8">
-            <h4 class="mb-3 display-4">wanna talk about your big project?</h4>
-            <form class="needs-validation" novalidate="">
-                <div class="row g-3">
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required=""
-                            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                        <div class="invalid-feedback">
-                            Valid first name is required.
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-                <div class="col-12">
-                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                    <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
-                    </div>
-                </div>
-                <div class="col-12">
-                    <label for="address" class="form-label">Project Type</label>
-                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                    <div class="invalid-feedback">
-                        Please enter your shipping address.
-                    </div>
-                </div>
-                <hr class="my-4">
-        </div>
-    </div>
-    </div>
     <!-- hero section starts -->
     <div class="container">
         <div class="row">
@@ -171,16 +135,32 @@
                     <div class="orange-dash-line"></div>
                 </div>
                 <h1 class="display-4 fw-bold mb-5">Work Enquiry</h1>
-                <h1>Wanna talk about your next big project?</h1>
+                <h1 style="width: 42%;
+                margin-bottom: 53px;">Wanna talk about your next big project?</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label sec-label">Full Name *</label>
+                <input type="text" class="form-control sec-input" id="firstName" placeholder="John Doe" value=""
+                    required="">
+                <label for="firstName" class="form-label sec-label">Email Address *</label>
+                <input type="text" class="form-control sec-input-two" id="firstName" placeholder="Enter Email Address"
+                    value="" required="">
+                <label for="firstName" class="form-label sec-label">Project Type *</label>
+                <input type="text" class="form-control sec-input-two" id="firstName" placeholder="Select all that apply"
+                    value="" required="">
+                    <button class="btn btn-dark send-butt">Send</button>
+            </div>
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label sec-label">Quick Message</label>
+                <input type="text" class="form-control sec-input-three" id="firstName" placeholder="Leave a message" value=""
+                    required="">
+            </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>info@brooke.com</p>
+                <p class="footer-para">info@brooke.com</p>
             </div>
         </div>
     </div>

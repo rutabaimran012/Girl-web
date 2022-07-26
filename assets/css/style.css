@@ -76,3 +76,30 @@ h4{
     margin-top: 97px;
     background-color: white;
 }
+.sec-input{
+    padding: 10px 17px;
+    border: 2px solid #817f7f;
+    margin: 6px 0 15px 0;
+    width: 95%;
+}
+.sec-input-two{
+    padding: 10px 17px;
+    margin: 6px 0 15px 0;
+    width: 95%;
+}
+.sec-input-three{
+    padding: 10px 17px;
+    margin: 6px 0 15px 0;
+    height: 59%;
+}
+.sec-label{
+    color: #817f7f;
+}
+.send-butt{
+    padding: 10px 70px;
+    border-radius: 27px;
+    margin-top: 29px;
+}
+.footer-para{
+    margin-top: 100px;
+}
